@@ -27,7 +27,7 @@ To inform sponsors of our clubs existence, what club organization is about. We w
 - Sponsorship packet needs to be easily available on the site (Actual packet will be provided later)
 - VEX robotics name and content is fine to use on the site
 - Users should easily be able to contact the team at **ksuroboticsteam@gmail.com**
-- Users should be able to access the offical KSU club page [here](https://www.kent.edu/csi/kent-state-vex-robotics-team)
+- Users should be able to access the official KSU club page [here](https://www.kent.edu/csi/kent-state-vex-robotics-team)
 
 ### Other Requirements
 - Team photos
@@ -90,4 +90,4 @@ These example sites should not be copied but instead be used to pull ideas from.
 ------------------------------------------------------
 ## License
 
-Licensed under 
+Licensed under [BSD-3-Clause](https://opensource.org/license/bsd-3-clause)
