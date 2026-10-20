@@ -9,7 +9,7 @@ If you find a security issue with the KSU Vex Robotics website, please let us kn
 
 Instead, report it privately by either
 - Using the **Report a vulnerability** button under this repository's **Security** tab
-- Messaging HacKSU staff on the [HacKSU Discord](https://discord.gg/r8vVvsE)
+- Messaging HacKSU leadership on the [HacKSU Discord](https://discord.gg/r8vVvsE)
 
 Please include what the issue is, where it is, and how to reproduce it.
 
@@ -29,5 +29,5 @@ Issues with other sites we link to (KSU, VEX, Discord, etc.) do not count.
 ## For Contributors
 - Never commit passwords, API keys, or `.env` files
 - Secrets should only be used in server code, since anything sent to the browser is public
-- If you accidentally commit a secret, tell HacKSU staff right away so it can be changed. Deleting it in a new commit is not enough.
+- If you accidentally commit a secret, tell HacKSU leadership right away so it can be changed. Deleting it in a new commit is not enough.
 - Run `npm audit` when adding or updating dependencies
