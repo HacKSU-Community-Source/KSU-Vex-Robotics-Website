@@ -1,0 +1,40 @@
+name: Development item
+description: A new page, section, or feature for the site.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should be added or changed?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this needed?
+      description: Link it to a site requirement from the README if possible, such as the sponsorship packet or team photos.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] Works at desktop and mobile widths
+        - [ ] Uses KSU theme colors
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: Design references
+      description: Mockups, screenshots, or links to inspiration. Inspiration is for ideas only, not copying.
+  - type: textarea
+    id: attribution
+    attributes:
+      label: Attribution
+      description: If an AI agent wrote this issue, replace this with the provider, model, and harness used.
+      value: Not AI-generated
+    validations:
+      required: true
