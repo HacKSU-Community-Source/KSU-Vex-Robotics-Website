@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  /* Primary */
+  --color-ksu-blue: #003976; /* PMS 281 */
+  --color-ksu-gold: #efab00; /* PMS 124 */
+
+  /* Secondary */
+  --color-ksu-sky: #2c8ecd;
+  --color-ksu-yellow: #ffd702;
+  --color-ksu-navy: #00295f;
+  --color-ksu-gray: #96a0a5;
+  --color-ksu-silver: #b5b8b5;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
