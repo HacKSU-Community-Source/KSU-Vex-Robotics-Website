@@ -1,0 +1,40 @@
+name: Content update
+description: New or corrected club information, photos, or documents.
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: Use this for club-provided content such as team photos, robot photos, leadership history, or the sponsorship packet.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Content type
+      options:
+        - Team photos
+        - Robot photos
+        - Leadership history
+        - Sponsorship packet
+        - Contact or link update
+        - Other text
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Paste the text or attach the files. Only include content the club has approved for the public site.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where should it go?
+      placeholder: Home page, About section, footer
+  - type: textarea
+    id: attribution
+    attributes:
+      label: Attribution
+      description: If an AI agent wrote this issue, replace this with the provider, model, and harness used.
+      value: Not AI-generated
+    validations:
+      required: true
