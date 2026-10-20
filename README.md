@@ -77,7 +77,7 @@ made a new page. react makes this really hard and is my least fav framework bleh
 iourwenfuiydf
 ```
 
-PR's not following these rules may be denied and asked to correct them, discretion is up to the mantainers of this project (HacKSU staff).
+PR's not following these rules may be denied and asked to correct them, discretion is up to the mantainers of this project (HacKSU leadership).
 ------------------------------------------------------
 ## Design
 The general design of the site should follow Kent State colors and themeing, as it is the primary theme used by KSU Vex Robotics.
@@ -90,4 +90,4 @@ These example sites should not be copied but instead be used to pull ideas from.
 ------------------------------------------------------
 ## License
 
-TBD
+Licensed under 
