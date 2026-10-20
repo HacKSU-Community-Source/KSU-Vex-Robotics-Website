@@ -115,4 +115,4 @@ AI tools are fine to use, but you are responsible for the code you submit. If AI
 
 AI tools get their instructions from `AGENTS.md`. You do not need to read it, everything important is in this file. If you change a rule in one file, please update the other.
 
-PR's not following these rules may be denied and asked to correct them, discretion is up to the maintainers of this project (HacKSU staff).
+PR's not following these rules may be denied and asked to correct them, discretion is up to the maintainers of this project (HacKSU leadership).
