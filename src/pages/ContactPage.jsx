@@ -14,7 +14,9 @@ function Contact() {
         <h1 className="text-4xl font-bold text-ksu-gold">Contact</h1>
 
         <p className="mt-4">
-          Interested in getting involved or sponsoring the team? Reach out to us
+          Interested in getting involved or sponsoring the team? 
+          <br />
+          Reach out to us
           at{' '}
           <a
             href="mailto:ksuroboticsteam@gmail.com"
@@ -25,7 +27,7 @@ function Contact() {
           .
         </p>
 
-        <p className="mt-4">
+        <p className="mt-3">
           You can also visit our{' '}
           <a
             href="https://www.kent.edu/csi/kent-state-vex-robotics-team"
