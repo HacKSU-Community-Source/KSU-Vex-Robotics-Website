@@ -1,10 +1,24 @@
+import { Route, Routes } from 'react-router'
+import NavBar from './components/NavBar.jsx'
+import AboutPage from "./pages/AboutPage.jsx";
+import TeamPage from "./pages/TeamPage.jsx";
+import SponsorsPage from "./pages/SponsorsPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-ksu-blue">
-      <h1 className="text-5xl font-bold tracking-tight text-ksu-gold sm:text-7xl">
-        KSU Vex Robotics
-      </h1>
-    </main>
+    <>
+      <NavBar />
+      <main>
+        <Routes>
+          <Route path="/" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/team" element={<TeamPage />} />
+          <Route path="/sponsors" element={<SponsorsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </main>
+    </>
   )
 }
 
