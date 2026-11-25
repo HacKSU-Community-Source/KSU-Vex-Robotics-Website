@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router'
 import NavBar from './components/NavBar.jsx'
+import Footer from './components/Footer.jsx'
 import AboutPage from "./pages/AboutPage.jsx";
 import TeamPage from "./pages/TeamPage.jsx";
 import SponsorsPage from "./pages/SponsorsPage.jsx";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
+      <Footer />
     </>
   )
 }

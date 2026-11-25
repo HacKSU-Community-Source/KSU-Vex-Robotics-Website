@@ -1,12 +1,5 @@
 import { Link } from 'react-router'
 
-const pageLinks = [
-  { label: 'About', to: '/about' },
-  { label: 'Team', to: '/team' },
-  { label: 'Sponsors', to: '/sponsors' },
-]
-
-
 function Contact() {
   return (
     <section className="min-h-[calc(100vh-5rem)] bg-ksu-navy px-6 py-12 text-white">
@@ -24,7 +17,6 @@ function Contact() {
           >
             ksuroboticsteam@gmail.com
           </a>
-          .
         </p>
 
         <p className="mt-3">
@@ -37,7 +29,6 @@ function Contact() {
           >
             official KSU club page
           </a>
-          .
         </p>
       </div>
     </section>
